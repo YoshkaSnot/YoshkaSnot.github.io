@@ -1,0 +1,850 @@
+*{
+    margin:0;
+    padding:0;
+}
+.line{
+    margin-left:47%;
+    margin-bottom: 30px;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+}
+.sub_line{
+    text-align:left;
+    margin-bottom: 30px;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    background-color:#000000;
+    display:flex;
+}
+.header_logo{
+    padding: 23px 0 23px 0;
+    margin-left:150px;
+}
+header .menu_header .icon{
+    display: none;
+}
+.menu_header{
+    text-align: center;
+}
+nav{
+    margin-top: 30px;
+    margin-left:585px;
+}
+.menu_header a{
+    opacity: 0.69;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    padding-right: 45px;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    width:100%;   
+}
+main .main_logo{
+    background-color: #9a9a9a;
+    padding:60px 0 140px 0;
+}
+main .picture{
+    text-align:center;
+    margin-bottom: 15px;
+}
+main .picture p:first-child{
+    opacity: 0.21;
+    font-size: 33.1px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+main .logo{
+    display:flex;
+}
+main .left_logo{
+    margin-left:150px;    
+}
+main .left_logo img{
+    margin-bottom:35px;
+}
+main .left_logo h1{
+    display: inline-block;
+    font-family: "Raleway";
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    width:550px;
+    margin-bottom:40px;
+}
+main .left_logo .line{
+    width: 65px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 43px;
+}
+main .left_logo p{
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom:53px;
+}
+main .left_logo button{
+    background-color: #9a9a9a;;
+    width: 135px;
+    height: 42px;
+    border: 2px solid white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+}
+main .right_logo{
+    margin-right:73px;
+    text-align: center;
+    margin:0 73px 0 73px;
+}
+main .right_logo .container{
+    background-color: white;
+}
+main .right_logo h2{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+    background-color: #f5f5f5;
+    padding: 18px 52px 15px 56px;
+}
+main .right_logo h2 .big{
+    color: #ff8b38;
+}
+main .right_logo input[type=text], main .right_logo input[type=password]{
+    padding: 14px 260px 11px  9px;
+    margin: 18px 0 18px 0;
+    display: inline-block;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+}
+main .right_logo input[type=text]:-moz-placeholder, main .right_logo input[type=password]:-moz-placeholder{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+main .right_logo input[type=text]:focus, main .right_logo input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+main .start{
+    background-color: #ff9b51;
+    color: white;
+    padding: 21px 140px 20px 139px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+main .start:hover{
+    opacity:0.9;
+}
+main .main_social{
+    display:flex;
+    padding:22px 0 22px 0;
+}
+main .social_left{
+    margin-left: 132px;
+    margin-right:85px;
+    float:left;
+}
+main .main_social h2{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+main .main_social p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+main .social_right{
+    float:right;
+    text-align: center;
+    padding:7px 0 8px 0;
+}
+main .main_tabs{
+   display:flex;
+   padding: 147px 0 115px 0;
+   background-color:#f5f5f5; 
+}
+main .tabs_button{
+    padding-left:142px;
+}
+main .tabs_button button{
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+main .tabs_button button:focus{
+    background-color: #ff8b38;
+}
+main .tabs_center{
+    text-align: left;
+    padding-left:100px;
+    padding-right: 100px;
+}
+main .tabs_center h3{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom:52px;
+}
+main .tabs_center p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+main .tabs_center p:first-of-type{
+  padding-bottom:30px;
+}
+main .tabs_center button{
+    margin-top:50px;
+    width: 123px;
+    height: 47px;
+    background:#ff8b38;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    border:none;
+    border-radius: 5%;
+}
+main .img_tab{
+    margin-top:15px;
+   margin-right:60px;
+}
+main .main_sub_list{
+    display:flex;
+    padding:70px 0 90px 0;
+}
+main .main_sub_list .pic_left button{
+    width: 453px;
+    height: 303px;
+    background: #9a9a9a;
+    border:none;
+    margin-left:150px;
+    margin-right: 190px;
+    margin-top:20px;
+    box-shadow: 0px 10px 15px #9a9a9a;
+}
+main .pic_left button .but, .main_standart button .but{
+    opacity: 0.21;
+    font-family: 'Open Sans';
+    font-size: 33.1px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+main .main_sub_list .pic_right{
+    text-align:left;
+}
+main .main_sub_list .pic_right h3{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom:30px;
+}
+main .main_sub_list .line, .main_standart .line{
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    margin-bottom:30px;
+}
+main .main_sub_list .pic_right p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-bottom: 50px;
+    padding-right:100px;
+}
+main .main_sub_list .pic_right li{
+    background: url(/images/marker.png) 0px 0px no-repeat;
+    list-style: none;
+    margin-right:80px;
+}
+main .main_sub_list .pic_right li .li{
+    padding-left: 75px;
+}
+main .main_sub_list .pic_right li:first-of-type{
+    padding-bottom:30px;
+}
+main .main_sub_list .pic_right .h5{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121;  
+}
+main .main_sub_list .pic_right .p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+main .main_standart{
+    display: flex;
+    padding:90px 0 130px 0;
+}
+main .main_standart .standart_left{
+    padding-top:16px;
+    margin-left: 150px;
+    margin-right: 195px;
+}
+main .main_standart .standart_left h4{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color: #212121;
+}
+main .main_standart .standart_left p:first-child{
+    padding-bottom: 25px;
+}
+main .main_standart .standart_left p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+main .main_standart .standart_right{
+    margin-right:125px;
+}
+main .main_standart button{
+    width: 453px;
+    height: 303px;
+    background: #9a9a9a;
+    border:none;
+    box-shadow: 0px 10px 15px #9a9a9a;
+}
+main .main_why{
+    padding:110px 0 105px 0;
+    text-align: center;
+}
+main .main_why h1{
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    padding-bottom: 30px;
+}
+main .main_why p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-bottom: 80px;
+}
+main .main_why .icon_why{
+    display: flex;
+    margin: 0 143px;
+}
+main .main_why .icon_why img{
+    padding-bottom: 30px;
+}
+main .main_why .icon_why h3{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 30px;
+}
+main .main_why .icon_why p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-left:30px;
+}
+main .main_why .icon_why .column_3 p{
+    padding-left:0;
+}
+main .main_pricing{
+    text-align: center;
+    padding: 106px 0 145px 0;
+    background-color: #f5f5f5; 
+}
+main .main_pricing h1{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    padding-bottom: 30px;
+}
+main .main_pricing p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    margin-bottom: 0px;
+}
+main .main_pricing .prices{
+    display: flex;
+    margin-left:106px;
+    margin-top: 80px;
+}
+main .main_pricing .prices .price_1, main .main_pricing .prices .price_3{
+    margin-top: 35px;
+}
+main .main_pricing .prices .price_1,main .main_pricing .prices .price_2{
+    margin-right:40px;
+}
+main .main_pricing .prices h2{
+    width: 343px;
+    height: 43px;
+    background-color: #333333;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom:1px;
+    padding-top:15px;
+}
+main .main_pricing .prices .block_coin{
+    background-color: #333333;
+    width: 343px;
+    height: 152px;
+}
+main .main_pricing .prices .block_coin p:first-child{
+    font-family: Raleway;
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top:50px;
+    margin-bottom: 0;
+}
+main .main_pricing .prices .block_coin p:first-child .two{
+    font-size: 94px;
+}
+main .main_pricing .prices .block_coin p.t{
+    opacity: 0.5;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    padding-top:20px;
+    margin-bottom: 0;
+}
+main .main_pricing .prices p.orange{
+    width: 343px;
+    height: 5px;
+    background-color: #ff8b38;
+}
+main .main_pricing .prices .price_2{
+    padding-top:0px;
+}
+main .main_pricing .prices .price_2 p.orange{
+    margin-bottom: 0;
+    height: 30px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top:10px;
+}
+main .main_pricing .prices ul{
+    width: 343px;
+    list-style-type: none;
+}
+main .main_pricing .prices li{
+    background-color: #ffffff;
+    margin-bottom:2px;
+    padding:15px 0 15px 0;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #86878b;
+}
+main .main_what{
+    padding:108px 0 105px 0;
+    text-align: center;
+}
+main .main_what h1{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    padding-bottom: 30px;
+}
+main .main_what p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-bottom: 55px;
+}
+main .main_what .prof_cards{
+    display: flex;
+    margin-left:171px;
+    text-align: left;
+}
+main .main_what .prof_cards  .card .block{
+    width: 273px;
+    height: 147px;
+    background-color: #f5f5f5;
+    margin-right: 120px;
+    margin-bottom: 25px;
+}
+main .main_what .prof_cards  .card .block p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #86878b;
+    padding:24px 12px 13px 41px;
+}
+main .main_what .prof_cards .job{
+    display:flex;
+}
+main .main_what .prof_cards .job .job_left{
+    margin-right: 15px;
+}
+main .main_what .prof_cards .job_right{
+    padding-top:18px;
+}
+main .main_what .prof_cards .job_right .name{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 10px;
+}
+main .main_what .prof_cards .job_right .post{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #86878b;
+}
+main .main_stylish{
+    background-color: #9a9a9a;
+    text-align: center;
+    padding: 75px 0 22px 0;
+}
+main .main_stylish h1{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+main .main_stylish .line{
+    background-color: #fff;
+}
+main .main_stylish p{
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 33px;
+}
+main .main_stylish button{
+    background-color: #9a9a9a;
+    border: 1px solid #ffffff;
+    width: 135px;
+    height: 42px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+main .main_stylish p:last-child{
+    opacity: 0.21;
+    font-family: 'Open Sans';
+    font-size: 16.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 0;
+}
+main .main_contact{
+    padding: 108px 0 80px 0;
+    text-align: center;
+}
+main .main_contact h1{
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    padding-bottom: 30px;
+}
+main .main_contact p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-bottom: 91px;
+}
+main .main_contact .container{
+    text-align: left;
+    display: flex;
+    margin-left:141px;
+}
+main .main_contact .container input[type=text], main .main_contact .container input[type=email]{
+    width: 527px;
+    height: 31px;
+    border:none;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+    margin-bottom:30px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+    opacity:0.5;
+}
+main .main_contact .container_right textarea{
+    font-family: 'Open Sans';
+    opacity:0.5;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+    height: 155px;
+    width:527px;
+    border:none;
+}
+main .main_contact button{
+    width: 148px;
+    height: 46px;
+    border-radius: 5%;
+    background-color: #ff9b51;
+    border:none;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 22px 0 16px 0;
+}
+footer p{
+    opacity: 0.5;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top:10px;
+}
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left:20%;
+    }
+}
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left:10%;
+    }
+}
+@media screen and (max-width: 1010px){
+    .menu_header a{
+        display:none;
+    }
+    .menu_header a.icon{
+        float: right;
+        margin-top:-17px;
+        display:block;
+        color:#fff;
+        font-size:25px;
+    }
+    nav{
+        width:100%;
+    }
+    .menu_header.responsive{
+        position:relative;
+        top:50px;
+        left:-200px;
+    }
+    header .menu_header.responsive{
+        height: 280px;
+    }
+    .menu_header.responsive a.icon{
+        position:absolute;
+        top:-50px;
+        right:-200px;
+    }
+    .menu_header.responsive a{
+       float:none;
+       display:block;
+       text-align:left;
+       font-size:20px;
+       padding-bottom:10px;
+       margin-left:30px;
+    }
+    main .main_logo .picture p{
+       font-size:20px;
+    }
+    main .main_logo .logo{
+    display: block; 
+    }
+    main .main_logo .left_logo{
+        margin-left:50px;
+    }
+    main .main_logo .left_logo h1{
+        font-size:25px;
+    }
+    main .main_logo .left_logo p{
+        font-size:18px;
+    }
+    main .main_logo .left_logo button{
+        margin-bottom: 40px;
+    }
+    main .right_logo input[type=text], main .right_logo input[type=password]{
+        padding-right: 150px;
+    }
+    .main_social .social{
+        display: block;
+    }
+    .main_social .social_left{
+        margin-left:30px;
+    }
+    .main_social .social_right{
+        width:100%;
+    }
+    main .main_tabs{
+        display: block;
+    }
+    main .main_tabs .tabs_button{
+        padding-left:90px;
+        padding-bottom: 30px;
+    }
+    main .main_tabs .img_tab{
+        margin-left:90px;
+    }
+    main .main_sub_list{
+        display:block;
+        margin-left:50px;
+    }
+    main .main_sub_list .pic_left button{
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width:400px;
+        height:250px;
+    }
+    main .main_standart{
+        display:block;
+    }
+    main .main_standart .standart_left{
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+    main .main_standart button{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        width:400px;
+        height:250px;
+    }
+    main .main_why h1{
+        font-size: 25px;
+    }
+    main .main_why .icon_why{
+        display: block;
+    }
+    main .main_pricing h1{
+        font-size: 25px;
+    }
+    main .main_pricing .prices{
+        display: block;
+    }
+    main .main_what h1{
+        font-size: 25px;
+    }
+    main .main_what .prof_cards{
+        display: block;
+        margin-left: 90px;
+    }
+    main .main_stylish h1{
+        font-size: 25px;
+    }
+    main .main_contact h1{
+        font-size: 25px;
+    }
+    main .main_contact .line{
+        margin-left:43%;
+    }
+    main .main_contact .container{
+        margin-left: 90px;
+    }
+    main .main_contact .container{
+        display: block;
+    }
+    main .main_contact .container input[type=text], main .main_contact .container input[type=email]{
+        width:250px;
+    }
+}
